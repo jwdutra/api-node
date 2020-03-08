@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": ".",
+    "paths": {
+      "@root": ["/*"],
+      "@app/*": ["src/*"],
+      "@middleware/*": ["src/middleware/*"],
+      "@util/*": ["src/util/*"],
+      "@util/helper/*": ["src/helper/*"],
+      "@model/*": ["src/model/*"],
+      "@repository/*": ["src/repository/*"],
+      "@service/*": ["src/service/*"],
+      "@controller/*": ["src/controller/*"],
+      "@router/*": ["src/router/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

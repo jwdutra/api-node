@@ -1,0 +1,6 @@
+PORT = 3000
+
+MONGO_DB = mongodb+srv://<usuario>:<senha>@<banco>-uni8y.mongodb.net/test?retryWrites=true&w=majority
+
+SECRET = v$Z!!53s5N&M
+SECRET_EXPIRE = 3600
